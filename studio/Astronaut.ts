@@ -1,5 +1,7 @@
 
-class Astronaut implements Panthera {
+import { Payload } from './Payload';
+
+export class Astronaut implements Payload {
     massKg: number;
     name: string;
     constructor (massKg: number,name: string) {
@@ -7,5 +9,3 @@ class Astronaut implements Panthera {
         this.name = name;
     }
 }
-
-export class Astronaut { }

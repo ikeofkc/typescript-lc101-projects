@@ -1,12 +1,13 @@
 
-class Cargo implements Panthera {
+import { Payload } from './Payload';
+
+export class Cargo implements Payload {
     massKg: number;
     material: string;
-    constructor (massKg: number,name: string) {
+    constructor (massKg: number,material: string) {
         this.massKg = massKg;
         this.material = material;
     }
 }
 
 
-export class Cargo { }

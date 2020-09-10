@@ -9,9 +9,3 @@ var Astronaut = /** @class */ (function () {
     return Astronaut;
 }());
 exports.Astronaut = Astronaut;
-var Astronaut = /** @class */ (function () {
-    function Astronaut() {
-    }
-    return Astronaut;
-}());
-exports.Astronaut = Astronaut;
